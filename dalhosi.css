@@ -1,0 +1,1030 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/******************************************** Navbar start  ********************************************/
+
+.image-invincible {
+    margin-top: -55px !important;
+    margin-left: 60px !important;
+}
+
+.navbar-toggler {
+    margin-top: -45px !important;
+    border: none !important;
+    margin-right: 8% !important;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url(Images/burger-menu-svgrepo-com.svg);
+}
+
+.offcanvas-header {
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.icon {
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: -20px;
+}
+
+.icon-3 {
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: 8px;
+}
+
+.nav-link {
+    font-size: 18px !important;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.nav-item {
+    margin-bottom: 3px !important;
+}
+
+.navbar {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+/******************************************** Navbar end  ********************************************/
+
+.img-carousal {
+    object-fit: cover;
+    height: 400px;
+}
+
+.fa-circle-play {
+    position: absolute;
+    /* z-index: 0; */
+    margin-top: 200px;
+    margin-left: -720px;
+    color: white;
+    font-size: 65px;
+}
+
+.carousel-indicators {
+    background: rgba(0, 0, 0, .25);
+    width: 115px;
+    border-radius: 15px;
+    height: 15px;
+    margin-left: 46%
+}
+
+.circle {
+    border-radius: 50%;
+    height: 8px !important;
+    width: 8px !important;
+    background-color: #fff;
+    margin-top: -6px;
+}
+
+.Events {
+    color: #DE5824;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.Events2 {
+    color: #717171;
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.include {
+    list-style-type: none;
+    /* margin-left: -33px; */
+    margin-top: -14px;
+    font-size: 15px;
+}
+
+.include-2 {
+    list-style-type: none;
+    /* margin-left: -13px; */
+    margin-top: -14px;
+    font-size: 15px;
+}
+
+.include-text {
+    font-size: 17px;
+    margin-top: 7px;
+}
+
+.box-icon-1 {
+    background-color: #e3e3e3;
+    padding: 7px;
+    border-radius: 50%;
+    color: #DE5824;
+    margin-top: 7px;
+}
+
+.price-box-text {
+    font-size: 18px;
+}
+
+.box-icon {
+    background-color: #e3e3e3;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #DE5824;
+}
+
+/* .dalhousie-main {
+    display: flex;
+} */
+
+/* .main-info {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 2rem !important;
+} */
+
+.price-box {
+    /* margin-left: 80px; */
+    margin-top: 25px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+    border-radius: 0.6rem;
+    padding: 15px;
+    width: 380px;
+    height: 300px;
+}
+
+.booknow-btn {
+    margin-left: 1%;
+    margin-top: 12px;
+    border: none;
+    background-color: #DE5824;
+    color: white;
+    width: 100%;
+    height: 43px;
+    border-radius: 12px;
+    font-size: 25px;
+}
+
+.booknow-btn:hover {
+    background-color: #DE5824;
+}
+
+.cale-icon {
+    font-size: 25px;
+    margin-top: 6px;
+    margin-right: 10px;
+    color: #DE5824;
+}
+
+.fa-map {
+    font-size: 25px;
+    margin-top: 6px;
+    margin-right: 10px;
+    color: #DE5824;
+}
+
+.new-user {
+    font-size: 25px;
+    /* margin-top: 6px;
+    margin-right: 10px; */
+    color: #DE5824;
+}
+
+.icon-2 {
+    font-size: 25px;
+    margin-top: 6px;
+    margin-right: 10px;
+    color: #DE5824;
+}
+
+.info-1 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.info {
+    margin-top: -18px;
+}
+
+#more {
+    display: none;
+}
+
+#myBtn {
+    color: #de5824;
+    font-size: 16px;
+}
+
+/* .experiance-card-detail {
+    margin-bottom: -1px !important;
+    margin-top: -2px;
+} */
+
+.Brochure {
+    margin-top: 15px;
+    border: 1px solid #de5824;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 4px 12px;
+    color: #de5824;
+}
+
+.Brochure:hover {
+    background-color: #b34317;
+    color: #fff;
+}
+
+.main {
+    background: #f1f1f1;
+}
+
+.main2 {
+    color: #DE5824;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+ul#pills-tab-n {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 15px;
+}
+
+small {
+    font-size: 18px;
+}
+
+/* .session1{
+    background-color: #f8f8f8;
+    padding-top: 12px;
+    padding-bottom: 119px;
+} */
+
+.join-title {
+    font-size: 25px;
+    color: #de5824;
+}
+
+.main-title {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.join-us {
+    overflow-x: auto;
+    margin-bottom: 12px;
+    margin-top: -12px;
+}
+
+.join-card {
+    width: 234px;
+    border-radius: 19px;
+    height: 95% !important;
+    /* margin-left: 14px; */
+    margin-top: 12px;
+    /* box-shadow: inset 0px 0px 0px 2px #de5824, 0px 0rem 1rem 2px rgba(0,0,0,.15); */
+}
+
+.main-card-bg {
+    background-color: #f1f1f1;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+.month-btn {
+    padding: 2px 13px;
+    font-size: 19px !important;
+    color: #de5824 !important;
+    font-weight: 400 !important;
+    border: 1px solid #de5824 !important;
+    border-radius: 5px !important;
+}
+
+.date-new .nav-link.active {
+    border-radius: 50% !important;
+    padding: 7px 12px;
+    background-color: #fff !important;
+}
+
+.date-btn {
+    padding: 7px 12px;
+    border: 3px solid #e3e3e3 !important;
+    border-radius: 50% !important;
+    color: #000 !important;
+    font-weight: 500 !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #de5824 !important;
+    color: white !important;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #DE5824;
+    color: white !important;
+}
+
+.nav-pills .card.active {
+    box-shadow: inset 0px 0px 0px 2px #de5824, 0px 0rem 1rem 2px rgba(0, 0, 0, .15);
+}
+
+.card-img-top {
+    width: 199px;
+    height: 100px;
+    object-fit: cover;
+    margin: 16px 16px 9px 16px;
+    border-radius: 15px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.join-us-info {
+    margin-top: -13px;
+    margin-left: 5px;
+}
+
+.line {
+    border-left: 4px solid #e3e3e3;
+    height: 2710px;
+}
+
+span.point-1 {
+    background-color: #de5824;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-top: -2727px;
+    margin-left: -4px;
+}
+
+.title-text {
+    margin-top: -5px;
+}
+
+.day-1 {
+    position: absolute;
+    margin-top: -2732px;
+    margin-left: 25px;
+}
+
+i.fa-arrow-up-right-from-square.fa-solid {
+    font-size: 12px;
+    color: #de5824;
+    margin-left: 3px;
+}
+
+span.point-2 {
+    background-color: #de5824;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-top: -2585px;
+    margin-left: -4px;
+}
+
+.line-1 {
+    border: 2px solid #b3aaaa;
+    width: 900px;
+    margin-top: 21px;
+}
+
+.day-2 {
+    position: absolute;
+    margin-top: -2595px;
+    margin-left: 25px;
+}
+
+span.point-3 {
+    background-color: #de5824;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-top: -2450px;
+    margin-left: -4px;
+}
+
+.day-3 {
+    position: absolute;
+    margin-top: -2455px;
+    margin-left: 25px;
+}
+
+.dalhousie-img-1 {
+    width: auto;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+}
+
+span.point-4 {
+    background-color: #de5824;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-top: -1878px;
+    margin-left: -4px;
+}
+
+.day-4 {
+    position: absolute;
+    margin-top: -1884px;
+    margin-left: 25px;
+}
+
+span.point-5 {
+    background-color: #de5824;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-top: -1302px;
+    margin-left: -4px;
+}
+
+.day-5 {
+    position: absolute;
+    margin-top: -1310px;
+    margin-left: 25px;
+}
+
+span.point-6 {
+    background-color: #de5824;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-top: -728px;
+    margin-left: -4px;
+}
+
+.day-6 {
+    position: absolute;
+    margin-top: -735px;
+    margin-left: 25px;
+}
+
+span.point-7 {
+    background-color: #de5824;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-top: -160px;
+    margin-left: -4px;
+}
+
+.day-7 {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 25px;
+}
+
+span.point-8 {
+    background-color: #de5824;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-top: -25px;
+    margin-left: -4px;
+}
+
+.day-8 {
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 25px;
+}
+
+.line-dal {
+    border-left: 4px solid #e3e3e3;
+    height: 1734px !important;
+}
+
+span.point-1-d {
+    background-color: #de5824;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-top: -1753px;
+    margin-left: -4px;
+}
+
+.day-1-d {
+    position: absolute;
+    margin-top: -1758px;
+    margin-left: 25px;
+}
+
+span.point-2-d {
+    background-color: #de5824;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-top: -1173px;
+    margin-left: -4px;
+}
+
+.day-2-d {
+    position: absolute;
+    margin-top: -1179px;
+    margin-left: 25px;
+}
+
+span.point-3-d {
+    background-color: #de5824;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-top: -597px;
+    margin-left: -4px;
+}
+
+.day-3-d {
+    position: absolute;
+    margin-top: -603px;
+    margin-left: 25px;
+}
+
+span.point-4-d {
+    background-color: #de5824;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-top: -27px;
+    margin-left: -4px;
+}
+
+.day-4-d {
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 25px;
+}
+
+.session1 {
+    padding-bottom: 124px;
+}
+
+.session2 {
+    background-color: #f1f1f1;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.main-card-attraction {
+    overflow-x: auto;
+}
+
+.attraction {
+    font-size: 20px;
+    color: #de5824;
+}
+
+.card-img-att {
+    width: 248px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.attraction-card-title {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.video {
+    margin-top: 25px;
+}
+
+.video-title {
+    font-size: 22px;
+}
+
+.video-subtitle {
+    font-size: 18px;
+}
+
+.Video-main {
+    display: flex !important;
+    overflow-x: auto !important;
+    padding-bottom: 16px;
+}
+
+.youtube-video {
+    border-radius: 12px;
+}
+
+/* travel booking */
+#travel-booking a {
+    text-decoration: none;
+    border-radius: 10px !important;
+    padding: 6px 10px;
+    font-weight: 500;
+    background: #de5824;
+    color: #fff;
+}
+
+.d-example {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.main-similar-trek {
+    width: 383px;
+}
+
+.Similar-trek {
+    margin-bottom: 12px;
+    display: flex;
+    margin-left: 0px;
+    overflow-x: auto;
+    gap: 19px;
+    overflow-y: hidden;
+}
+
+.similar-treks-card {
+    display: flex;
+    border-radius: 12px;
+    align-items: center;
+    height: 263px;
+    margin-left: 4px;
+    margin-top: 5px;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, .1), 0 0.25rem 0.5rem rgba(0, 0, 0, .075);
+    background: #fff;
+    border: none;
+    margin-bottom: 23px;
+}
+
+img.trek-image {
+    width: 304px;
+    height: 190px;
+    object-fit: cover;
+    margin-top: 6px;
+    border-radius: 12px;
+}
+
+.similar-trek-body {
+    margin-left: -51px;
+    padding: 11px;
+}
+
+h6.card-title.similar-trek-title {
+    font-weight: 400;
+    font-size: 17px;
+    color: #de5824;
+    margin-top: -5px;
+}
+
+.similar-trek-text {
+    display: flex;
+    align-items: center;
+    margin-top: -4px;
+}
+
+.similar-trek-icon {
+    font-size: 14px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+i.fa-brands.fa-whatsapp.bg-transparent.m-0 {
+    border: 1px solid #de5824;
+    padding: 7px 6px;
+    border-radius: 12px;
+    color: #de5824;
+    font-size: 19px;
+}
+
+i.fa-brands.fa-whatsapp.bg-transparent.m-0:hover {
+    background-color: #de5824 !important;
+    color: #fff;
+}
+
+
+/******************************************** footer start  ********************************************/
+
+.footer {
+    background-color: #1c1c1c;
+    padding: 15px 30px;
+}
+
+.footer-desc {
+    color: silver;
+    width: 300px;
+}
+
+.fa-brands {
+    padding: 10px;
+    font-size: 25px;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.fa-facebook-f {
+    background-color: white;
+}
+
+.fa-instagram {
+    background-color: white;
+}
+
+.fa-youtube {
+    background-color: white;
+}
+
+.fa-whatsapp {
+    background-color: white;
+}
+
+.fa-location-dot {
+    background-color: white;
+    padding: 10px;
+    font-size: 25px;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.footer-quick {
+    color: white;
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+.footer-quick-1 {
+    color: white;
+    list-style-type: none;
+    margin-top: 35px;
+    margin-left: -35px;
+}
+
+.subtitle-footer {
+    margin-bottom: 15px;
+    width: 250px;
+    color: silver;
+}
+
+.main-title {
+    color: #de5824;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+hr {
+    color: #212529;
+    margin-top: 8px;
+}
+
+.footer-terms {
+    color: white;
+}
+
+/******************************************** footer end  ********************************************/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .image-invincible {
+        margin-left: 20px !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 5% !important;
+    }
+
+    .offcanvas-header {
+        margin-top: 5px;
+    }
+
+    .nav-item {
+        margin-bottom: 0px !important;
+    }
+
+    .dalhousie-main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .join-us {
+        margin-left: -17px;
+    }
+
+    .max-altitude {
+        margin-left: 26px;
+    }
+
+    .price-box {
+        display: none;
+    }
+
+    .row-cols-1>* {
+        flex: auto;
+    }
+
+    .carousel-indicators {
+        margin-left: 35%;
+        z-index: 0;
+    }
+
+    .mobile-price-box {
+        display: block;
+        margin-top: 25px;
+        background-color: #f8f8f8;
+    }
+
+    .session {
+        background-color: #f8f8f8;
+        padding: 20px;
+    }
+
+    .session1 {
+        margin-top: 0px;
+    }
+
+    .Brochure {
+        display: none;
+    }
+
+    .include {
+        list-style-type: none;
+        margin-left: -43px;
+        margin-top: -14px;
+        font-size: 18px;
+    }
+
+    .include-2 {
+        list-style-type: none;
+        margin-left: 28px;
+        margin-top: -14px;
+        font-size: 18px;
+    }
+
+    .line-1 {
+        border: 2px solid #b3aaaa;
+        width: auto;
+        margin-top: 21px;
+    }
+
+    .dalhousie-img-1 {
+        width: auto;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    }
+
+    .box-icon {
+        background-color: #e3e3e3;
+        padding: 15px;
+        border-radius: 50%;
+        font-size: 28px;
+    }
+
+    .include-text {
+        font-size: 14px;
+        margin-top: 7px;
+    }
+
+    .whatapp-sticky{
+        font-size: 15px;
+    }
+
+    #travel-booking a{
+        font-size: 13px;
+    }
+
+    i.fa-brands.fa-whatsapp.bg-transparent.m-0{
+        height: auto;
+        padding: 5px 5px;
+    }
+
+    /* footer  */
+
+    .footer-desc {
+        width: auto;
+    }
+
+    .subtitle-footer {
+        width: auto;
+    }
+
+    .footer-quick-1 {
+        color: white;
+        list-style-type: none;
+        margin-top: 35px;
+    }
+
+    .fa-brands {
+        font-size: 25px;
+        width: 38px;
+        height: 39px;
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-location-dot {
+        background-color: white;
+        display: flex;
+        font-size: 25px;
+        width: 42px;
+        height: 40px;
+        text-align: center;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/******************************************** Tablet device start ********************************************/
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .offcanvas-header {
+        margin-top: 5px;
+    }
+
+    .nav-item {
+        margin-bottom: 0px !important;
+    }
+
+    .line-1 {
+        border: 2px solid #b3aaaa;
+        width: auto;
+        margin-top: 21px;
+    }
+
+    
+}
+
+/******************************************** Tablet device end ********************************************/
+
+
+
+/******************************************** laptop device start ********************************************/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .offcanvas-header {
+        margin-top: 5px;
+    }
+
+    .nav-item {
+        margin-bottom: 0px !important;
+    }
+
+    .footer-quick-1 {
+        margin-left: 0px;
+    }
+
+    .line-1 {
+        border: 2px solid #b3aaaa;
+        width: 700px;
+        margin-top: 21px;
+    }
+
+    .price-box {
+        width: auto;
+    }
+
+    .price-box-text {
+        font-size: 13px;
+    }
+
+}
+
+/******************************************** laptop device end ********************************************/

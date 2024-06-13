@@ -1,0 +1,313 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/******************************************** Navbar start  ********************************************/
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url(Images/burger-menu-svgrepo-com.svg);
+}
+
+.offcanvas-header {
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.icon {
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: -20px;
+}
+
+.icon-2 {
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: 8px;
+}
+
+.nav-link {
+    font-size: 18px !important;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.nav-item {
+    margin-bottom: 6px !important;
+}
+
+.main-events.col-8 {
+    margin-top: 65px;
+    color: #fff;
+}
+
+p.event {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.event-subtitle {
+    opacity: 0.8;
+}
+
+/******************************************** Navbar end ********************************************/
+
+
+/******************************************** Team content start  ********************************************/
+
+.nav-container {
+    overflow-x: auto;
+}
+
+.nav {
+    flex-wrap: nowrap;
+    width: max-content;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link {
+    color: #717171;
+    background-color: transparent !important;
+    padding-left: 0px;
+    /* font-size: 19px; */
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link :active {
+    color: #1c1c1c !important;
+}
+
+.team-list{
+    font-size: 24px !important;
+}
+
+.team-img {
+    border-radius: 15px;
+    height: auto;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.team-name {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #1c1c1c
+}
+
+.team-desg {
+    margin-top: -14px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #717171;
+}
+
+/******************************************** Team content end  ********************************************/
+
+
+/******************************************** Footer start  ********************************************/
+
+.footer {
+    background-color: #1c1c1c;
+    padding: 15px 30px;
+}
+
+.footer-desc {
+    color: silver;
+    width: 300px;
+}
+
+.fa-brands {
+    padding: 10px;
+    font-size: 25px;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.fa-facebook-f {
+    background-color: white;
+}
+
+.fa-instagram {
+    background-color: white;
+}
+
+.fa-youtube {
+    background-color: white;
+}
+
+.fa-whatsapp {
+    background-color: white;
+}
+
+.fa-location-dot {
+    background-color: white;
+    padding: 10px;
+    font-size: 25px;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.footer-quick {
+    color: white;
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+.footer-quick-1 {
+    color: white;
+    list-style-type: none;
+    margin-top: 35px;
+    margin-left: -35px;
+}
+
+.subtitle-footer {
+    margin-bottom: 15px;
+    width: 250px;
+    color: silver;
+}
+
+.main-title {
+    color: #de5824;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+hr {
+    color: #212529;
+    margin-top: 8px;
+}
+
+.footer-terms {
+    color: white;
+}
+
+/******************************************** Footer end ********************************************/
+
+
+/**************************************** Mobile device start  ********************************************/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .main-events {
+        margin-top: 43px;
+    }
+
+    p.event {
+        font-size: 23px;
+    }
+
+    .event-subtitle {
+        font-size: 14px;
+    }
+
+    .offcanvas-header {
+        margin-top: 5px;
+    }
+
+    .nav-item {
+        margin-bottom: 10px !important;
+    }
+
+    
+
+    /* footer  */
+
+    .footer-desc {
+        width: auto;
+    }
+
+    .subtitle-footer {
+        width: auto;
+    }
+
+    .footer-quick-1 {
+        color: white;
+        list-style-type: none;
+        margin-top: 35px;
+    }
+
+    .fa-brands {
+        font-size: 25px;
+        width: 42px;
+        height: 40px;
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-location-dot {
+        background-color: white;
+        display: flex;
+        font-size: 25px;
+        width: 42px;
+        height: 40px;
+        text-align: center;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/******************************************** Mobile device end ********************************************/
+
+
+
+/******************************************** Tablet device start ********************************************/
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .offcanvas-header {
+        margin-top: 5px;
+    }
+
+    .nav-item {
+        margin-bottom: 11px !important;
+    }
+}
+
+/******************************************** Tablet device end ********************************************/
+
+
+
+/******************************************** laptop device start ********************************************/
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .offcanvas-header {
+        margin-top: 5px;
+    }
+
+    .nav-item {
+        margin-bottom: 11px !important;
+    }
+
+    /* footer  */
+
+    .footer-quick-1 {
+        margin-left: 0px;
+    }
+}
+
+/******************************************** laptop device end ********************************************/

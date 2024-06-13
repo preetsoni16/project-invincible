@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invincible - The Largest Trekking Organization in India</title>
+
+    <!------------------------------------------ bootstrap link  ------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!------------------------------------------ fontawsome link --------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!---------------------------------------------- css file link ------------------------------------------>
+    <link rel="stylesheet" href="Team.css">
+
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <!-- ======================== nav bar start  ============================-->
+
+    <nav class="navbar" style="background-color: #de5824;">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="" src="Images/logo.svg" alt="" width="150px" height="auto"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item montserrat">
+                            <a class="nav-link active" aria-current="page" href="project.html"><i
+                                    class="col-2 icon fa-solid fa-house" style="color: #de5824;"></i> <span
+                                    class="nav-text">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link montserrat" href="projectevents.html"><i class="col-2 icon fa-solid fa-mountain-sun"
+                                    style="color: #de5824;"></i> <span class="nav-text">Events</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link montserrat" href="#"><i class="col-2 icon fa-solid fa-download"
+                                    style="color: #de5824;"></i>
+                                <span class="nav-text">Downloads</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link montserrat" href="About.html"><i class="col-2 icon fa-solid fa-building"
+                                    style="color: #de5824;"></i>
+                                <span class="nav-text">About</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link montserrat" href="Team.html"><i class="col-2 icon fa-solid fa-user-group"
+                                    style="color: #de5824;"></i> <span class="nav-text">Team</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link montserrat" href="contact.html"><i class="col-2 icon fa-solid fa-phone"
+                                    style="color: #de5824;"></i><span class="nav-text">Contact</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link montserrat" href="#"><i class="col-2 icon fa-solid fa-user"
+                                    style="color: #de5824;"></i><span class="nav-text">Login</span></a>
+                        </li><br>
+                        <hr>
+                        <div>
+                            <h5 class="icon" style="color: #de5824;">Contact</h5>
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link montserrat" href="#"><i class="icon-2 fa-solid fa-phone"
+                                            style="color: black;"></i>+91
+                                        9099 400 699</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link montserrat" href="#"><i class="icon-2 fa-solid fa-phone"
+                                            style="color: black;"></i>+91
+                                        9913 800 699</a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="main-events col-8">
+                <p class="event">The Team</p>
+                <p class="event-subtitle">Life is either a daring adventure or nothing.</p>
+            </div>
+            <div class="col-4"></div>
+        </div>
+
+    </nav>
+
+    <!-- ======================== nav bar start  ============================-->
+
+
+    <!--============================== Team content start ===========================-->
+    <div class="container mt-4">
+
+        <!--============================== Team list start ===========================-->
+        <div class="nav-container">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="montserrat team-list nav-link active" id="pills-core-team-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-core-team" type="button" role="tab" aria-controls="pills-core-team"
+                        aria-selected="true">Core team</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="montserrat team-list nav-link" id="pills-office-team-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-office-team" type="button" role="tab" aria-controls="pills-office-team"
+                        aria-selected="false">Office Team</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="montserrat team-list nav-link" id="pills-field-team-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-field-team" type="button" role="tab" aria-controls="pills-field-team"
+                        aria-selected="false">Field Team</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="montserrat team-list nav-link" id="pills-volunteers-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-volunteers" type="button" role="tab" aria-controls="pills-volunteers"
+                        aria-selected="false">Volunteers</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="montserrat team-list nav-link" id="pills-alumni-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-alumni" type="button" role="tab" aria-controls="pills-alumni"
+                        aria-selected="false">Alumni</button>
+                </li>
+            </ul>
+        </div>
+        <!--============================== Team list end ===========================-->
+
+        <div class="tab-content mt-4 mt-md-0" id="pills-tabContent">
+
+            <!--============================== Core Team start ===========================-->
+
+            <div class="tab-pane fade show active" id="pills-core-team" role="tabpanel"
+                aria-labelledby="pills-core-team-tab" tabindex="0">
+
+                <div class="row" style="row-gap: 23px;">
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-1.jpg" alt="">
+                        <p class="montserrat team-name">Rushiraj Mori</p>
+                        <p class="montserrat team-desg">Founder</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-2.jpg" alt="">
+                        <p class="montserrat team-name">Madhish Parikh</p>
+                        <p class="montserrat team-desg">Trustee</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-3.jpg" alt="">
+                        <p class="montserrat team-name">Vatsal Kathiriya</p>
+                        <p class="montserrat team-desg">Project Advisor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-4.jpg" alt="">
+                        <p class="montserrat team-name">Rashmi Gulia</p>
+                        <p class="montserrat team-desg">Project Advisor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-5.jpg" alt="">
+                        <p class="montserrat team-name">Bhavin Gohil</p>
+                        <p class="montserrat team-desg">Project Leader</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-6.jpg" alt="">
+                        <p class="montserrat team-name">Shashwat Jani</p>
+                        <p class="montserrat team-desg">Project Leader</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-7.jpg" alt="">
+                        <p class="montserrat team-name">Nishant Gadhvi</p>
+                        <p class="montserrat team-desg">Project Leader</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-8.jpg" alt="">
+                        <p class="montserrat team-name">Preeti Patel</p>
+                        <p class="montserrat team-desg">Asst Project Leader</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-9.jpg" alt="">
+                        <p class="montserrat team-name">Sahaj Ubhadiya</p>
+                        <p class="montserrat team-desg">Asst Project Leader</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-10.jpg" alt="">
+                        <p class="montserrat team-name">Samarth Vachhani</p>
+                        <p class="montserrat team-desg">Asst Project Leader</p>
+                    </div>
+                </div>
+            </div>
+            <!--============================== Core Team end ===========================-->
+
+            <!--============================== Office Team start ===========================-->
+
+            <div class="tab-pane fade" id="pills-office-team" role="tabpanel" aria-labelledby="pills-office-team-tab"
+                tabindex="0">
+
+                <div class="row" style="row-gap: 23px;">
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/office-1.jpg" alt="">
+                        <p class="montserrat team-name">Gaurang Purohit</p>
+                        <p class="montserrat team-desg">Finance Manager</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/office-2.jpg" alt="">
+                        <p class="montserrat team-name">Surpalsinh Rathod</p>
+                        <p class="montserrat team-desg">Project Coordinator</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/office-3.jpg" alt="">
+                        <p class="montserrat team-name">Samir Solanki</p>
+                        <p class="montserrat team-desg">Office Manager</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/office-4.jpg" alt="">
+                        <p class="montserrat team-name">Vrajesh Raval</p>
+                        <p class="montserrat team-desg">Operation Executive</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/office-5.jpg" alt="">
+                        <p class="montserrat team-name">Harsha Thakor</p>
+                        <p class="montserrat team-desg">Office Assistant</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/office-6.jpg" alt="">
+                        <p class="montserrat team-name">Kiya Chaudhary</p>
+                        <p class="montserrat team-desg">Office Assistant</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/office-7.jpg" alt="">
+                        <p class="montserrat team-name">Kashyap Trivedi</p>
+                        <p class="montserrat team-desg">Office Assistant</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--============================== Office Team end ===========================-->
+
+
+            <!--============================== Field Team start ===========================-->
+
+            <div class="tab-pane fade" id="pills-field-team" role="tabpanel" aria-labelledby="pills-field-team-tab"
+                tabindex="0">
+
+                <div class="row" style="row-gap: 23px;">
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-1.jpg" alt="">
+                        <p class="montserrat team-name">Jaypalsingh Bhati</p>
+                        <p class="montserrat team-desg">Senior Manager (Operations)</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-2.jpg" alt="">
+                        <p class="montserrat team-name">Bhavesh B</p>
+                        <p class="montserrat team-desg">Field Management</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-3.jpg" alt="">
+                        <p class="montserrat team-name">Krishna Vairagi</p>
+                        <p class="montserrat team-desg">Field Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-4.jpg" alt="">
+                        <p class="montserrat team-name">Sonu Kaushal</p>
+                        <p class="montserrat team-desg">Field Management</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-5.jpg" alt="">
+                        <p class="montserrat team-name">Deepak Kumar</p>
+                        <p class="montserrat team-desg">Event Management</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-6.jpg" alt="">
+                        <p class="montserrat team-name">Shushil Kumar</p>
+                        <p class="montserrat team-desg">Travel Arrangement</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-7.jpg" alt="">
+                        <p class="montserrat team-name">Kishorilal Tandon</p>
+                        <p class="montserrat team-desg">Logistics Management</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-8.jpg" alt="">
+                        <p class="montserrat team-name">Subhash Kumar</p>
+                        <p class="montserrat team-desg">Campsite Management</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-9.jpg" alt="">
+                        <p class="montserrat team-name">Jagdish Kumar</p>
+                        <p class="montserrat team-desg">Trek Coordination</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--============================== Field Team end ===========================-->
+
+
+            <!--============================== Volunteer start ===========================-->
+            <div class="tab-pane fade" id="pills-volunteers" role="tabpanel" aria-labelledby="pills-volunteers-tab"
+                tabindex="0">
+
+                <div class="row" style="row-gap: 23px;">
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-1.jpg" alt="">
+                        <p class="montserrat team-name">Jeel Patel</p>
+                        <p class="montserrat team-desg">Senior Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-2.jpg" alt="">
+                        <p class="montserrat team-name">Ayush Patel</p>
+                        <p class="montserrat team-desg">Senior Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-3.jpg" alt="">
+                        <p class="montserrat team-name">Sachin Patel</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-4.jpg" alt="">
+                        <p class="montserrat team-name">Jay Kacha</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-5.jpg" alt="">
+                        <p class="montserrat team-name">Thakkar Jaymin</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-6.jpg" alt="">
+                        <p class="montserrat team-name">Vishwa Patel</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-7.jpg" alt="">
+                        <p class="montserrat team-name">Bhakti Khakkar</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-8.jpg" alt="">
+                        <p class="montserrat team-name">Rushil Golakiya</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-9.jpg" alt="">
+                        <p class="montserrat team-name">Kashyap Ahir</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-10.jpg" alt="">
+                        <p class="montserrat team-name">Mayur Vora</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-11.jpg" alt="">
+                        <p class="montserrat team-name">Divya Patel</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-12.jpg" alt="">
+                        <p class="montserrat team-name">Harsh Dave</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--============================== Volunteer start ===========================-->
+
+            <!--============================== alumni start ===========================-->
+
+            <div class="tab-pane fade" id="pills-alumni" role="tabpanel" aria-labelledby="pills-alumni-tab"
+                tabindex="0">
+
+                <div class="row" style="row-gap: 23px;">
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-2.jpg" alt="">
+                        <p class="montserrat team-name">Madhish Parikh</p>
+                        <p class="montserrat team-desg">Trustee</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-3.jpg" alt="">
+                        <p class="montserrat team-name">Vatsal Kathiriya</p>
+                        <p class="montserrat team-desg">Project Advisor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/core team-4.jpg" alt="">
+                        <p class="montserrat team-name">Rashmi Gulia</p>
+                        <p class="montserrat team-desg">Project Advisor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-4.jpg" alt="">
+                        <p class="montserrat team-name">Sonu Kaushal</p>
+                        <p class="montserrat team-desg">Field Management</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-5.jpg" alt="">
+                        <p class="montserrat team-name">Deepak Kumar</p>
+                        <p class="montserrat team-desg">Event Management</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-6.jpg" alt="">
+                        <p class="montserrat team-name">Shushil Kumar</p>
+                        <p class="montserrat team-desg">Travel Arrangement</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-7.jpg" alt="">
+                        <p class="montserrat team-name">Kishorilal Tandon</p>
+                        <p class="montserrat team-desg">Logistics Management</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-8.jpg" alt="">
+                        <p class="montserrat team-name">Subhash Kumar</p>
+                        <p class="montserrat team-desg">Campsite Management</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/field-9.jpg" alt="">
+                        <p class="montserrat team-name">Jagdish Kumar</p>
+                        <p class="montserrat team-desg">Trek Coordination</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-7.jpg" alt="">
+                        <p class="montserrat team-name">Bhakti Khakkar</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-8.jpg" alt="">
+                        <p class="montserrat team-name">Rushil Golakiya</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-9.jpg" alt="">
+                        <p class="montserrat team-name">Kashyap Ahir</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-10.jpg" alt="">
+                        <p class="montserrat team-name">Mayur Vora</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-11.jpg" alt="">
+                        <p class="montserrat team-name">Divya Patel</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2">
+                        <img class="img-fluid team-img" src="Images/team-images/volunteer-12.jpg" alt="">
+                        <p class="montserrat team-name">Harsh Dave</p>
+                        <p class="montserrat team-desg">Instructor</p>
+                    </div>
+                </div>
+            </div>
+            <!--============================== alumni start ===========================-->
+
+        </div>
+    </div>
+    <!--============================== Team content End ===========================-->
+
+
+    <!-- ======================== footer start ============================-->
+
+    <div class="section mt-4">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="Images/logoimg,jpeg.svg" alt="" width="200px" height="200px">
+                        <p class="footer-desc">Invincible is a Non Government Organization, being run by young students
+                            for
+                            social reformation and building the nation with moral values and ethics.</p>
+                        <div class="d-flex gap-2">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram "></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                    </div>
+                    <div class="d-none d-lg-block col-lg-4">
+                        <ul class="footer-quick">
+                            <li class="main-title">Quick Links</li>
+                            <li>Events</li>
+                            <li>Downloads</li>
+                            <li>Login</li>
+                            <li>Stories</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <ul class="footer-quick-1">
+                            <li class="main-title">CONTACT</li>
+                            <li class="subtitle-footer">Ahmedabad (Head Office)</li>
+                            <li class="subtitle-footer">308, University Plaza, Above
+                                Chocolate Room,
+                                Vijay Cross Roads, Navrangpura,
+                                Ahmedabad, Gujarat 380009</li>
+                            <li class="subtitle-footer">Office Timings: 11AM to 8PM</li>
+                            <li class="subtitle-footer"><i class="fa-solid fa-phone"></i> +91 9099 400 699</li>
+                            <li class="subtitle-footer"><i class="fa-solid fa-phone"></i> +91 9913 800 699</li>
+                            <li class="subtitle-footer" style="color: #de5824;">Contact for Rajkot, Baroda, Surat Office
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-light mt-4">
+            <p class="footer-terms">© 2013-2022 Invincible. • Privacy Policy • Terms and Conditions</p>
+        </div>
+    </div>
+
+    <!-- ======================== footer end ============================-->
+
+
+</body>
+
+</html>
